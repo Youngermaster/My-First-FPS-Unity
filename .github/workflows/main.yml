@@ -17,7 +17,7 @@ jobs:
         projectPath:
           - path/to/your/project
         unityVersion:
-          - 2019.2.11f1
+          - 2019.4.18f1
         testMode:
           - playmode
           - editmode
