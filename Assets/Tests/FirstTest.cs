@@ -24,5 +24,18 @@ namespace Tests
             // Use yield to skip a frame.
             yield return null;
         }
+
+        [Test]
+        public void SumTest() {
+            Assert.That(Is3(Sum(1, 2)));
+        }
+
+        private bool Is3(int a) {
+            return a == 3? true : false;
+        }
+
+        private int Sum(int a, int b) {
+            return a+b;
+        }
     }
 }
